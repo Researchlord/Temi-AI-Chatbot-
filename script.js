@@ -7,7 +7,7 @@ const chatBotName = "Temi";
 const chatBotOwner = "Emmanuel Ogunbamerun also known as Dev Emma";
 
 // API Setup
-const API_KEY = "YOUR_API_KEY_HERE";  // Replace with your actual API key
+const API_KEY = "AIzaSyAKWNxQOx_nIRFN4S-zdEKBu8-YEZLoJBg";  // Replace with your actual API key
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 let userMessage = "";
