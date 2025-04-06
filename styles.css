@@ -181,3 +181,51 @@ body{
         width: 100%; /* Full width for small screens */
     }
 }
+
+.bot-message {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.bot-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #d0d3dc;
+    padding: 4px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.message-bubble {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e6eb;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 18px 18px 18px 0;
+    max-width: 75%;
+    position: relative;
+}
+
+.user-message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-message .message-text {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 18px 18px 0 18px;
+    max-width: 75%;
+}
+
+.timestamp {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-top: 4px;
+    align-self: flex-end;
+}
