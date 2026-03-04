@@ -7,8 +7,8 @@ const promptInput = document.querySelector(".prompt-input");
 const chatBotName = "Temi";
 const chatBotOwner = "Emmanuel Ogunbamerun also known as Dev Emma";
 
-const API_KEY = "AIzaSyAKWNxQOx_nIRFN4S-zdEKBu8-YEZLoJBg";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+const API_KEY = "sk-ijklmnopuvwx1234ijklmnopuvwx1234ijklmnop";
+const API_URL = `https://api.openai.com/v1=${API_KEY}`;
 
 let userMessage = "";
 const chatHistory = [];
@@ -101,3 +101,4 @@ const handleFormSubmit = (e) => {
 };
 
 promptForm.addEventListener("submit", handleFormSubmit);
+
